@@ -1,0 +1,325 @@
+$main-font: 'Lato', sans-serif;
+header {
+  text-align: center;
+  .intro {
+    margin-top: 20px;
+    h1 {
+      color: white;
+      display: inline;
+      font-size: 22px;
+    }
+    span {
+      text-transform: uppercase;
+      color: #87b672;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    p {
+      color: white;
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 30px;
+      margin-top: 10px;
+    }
+    .button-1 {
+      display: inline-block;
+      text-transform: uppercase;
+      color: white;
+      background-color: transparent;
+      padding: 10px 15px 10px 15px;
+      border: 1px white solid;
+    }
+    .button-1:hover{
+      color: #87b672;
+      border: 1px #87b672 solid;
+    }
+  }
+  .slider {
+    .controls {
+      background-image: none;
+      background-color: transparent;
+      margin-top: 220px;
+      span {
+        font-size: 50px;
+      }
+    }
+  }
+  .menu{
+    bottom: -40px;
+    nav{
+      background-image: none;
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+      margin-top: 30px;
+      margin-bottom: 0px;
+      .main-menu{
+        .main-list{
+          li{
+            padding-right: 12px;
+            a {
+              text-transform: uppercase;
+              font-family: $main-font;
+              font-size: 15px;
+              color: white;
+            }
+            a:hover{
+              color: #8fbb7b;
+            }
+          }.active-1 {
+          a {
+            color: #8fbb7b;
+            background-color: transparent;
+            background-image: none;
+            border: none;
+            box-shadow: none;
+          }
+           }
+        }
+        .search{
+          li{
+            a{
+              font-size: 20px;
+              color: white;
+            }
+            a:hover{
+              color: #8fbb7b;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.logo{
+    margin-left: 15px;
+    text-align: left;
+    a {
+      font-family: 'Pacifico', cursive;
+      font-size: 52px;
+      color: white;
+    }
+  .ico{
+    text-align: right;
+    ul{
+      display: inline-block;
+      list-style-type: none;
+      text-align: center;
+      li{
+        display: inline-block;
+        list-style-type: none;
+        padding-right: 5px;
+        padding-top: 20px;
+        a {
+          font-size: 18px;
+          background-color: white;
+          opacity: 0.5;
+          border-radius: 50%;
+          color: rgba(0, 0, 0, 0.5);
+          width: 30px;
+          height: 30px;
+          padding-top: 7px;
+        }
+        a:hover{
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}
+a{
+  font-family: $main-font;
+}
+a:hover{
+  text-decoration: none;
+}
+span{
+  font-family: $main-font;
+}
+h1 {
+  font-family: $main-font;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333333;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+p {
+  font-family: $main-font;
+  color: #666666;
+  font-size: 16px;
+}
+h2{
+  font-family: $main-font;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.line{
+  content: "";
+  height: 1px;
+  background-color: #f3f3f3;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.services{
+  background-color: white;
+  text-align: center;
+  .our-serv{
+    margin-top: 100px;
+  }
+  .single-service{
+    margin-bottom: 60px;
+    i{
+      color: gray;
+      font-size: 52px;
+      padding-bottom: 30px;
+    }
+    p{
+      color: #666666;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    a{
+      color: #8fbb7b;
+      font-size: 16px;
+      padding-bottom: 60px;
+    }
+    a:hover{
+      color: #6a9059;
+      text-decoration: none;
+    }
+  }
+}
+.work{
+  background-color: #dadada;
+  text-align: center;
+  .portfolio{
+    background-color: #dadada;
+  }
+}
+.buy{
+  background-color: white;
+  text-align: center;
+  .purchase{
+    margin-bottom: 60px;
+    p{
+      margin-bottom: 30px;
+    }
+    .button-2{
+      color: white;
+      text-transform: uppercase;
+      font-size: 14px;
+      background-color: #87b672;
+      padding: 10px 15px 10px 15px;
+    }
+  }
+}
+footer {
+  background-color: #333333;
+  .footer-top {
+    margin-top: 50px;
+    h1 {
+      color: white;
+      font-size: 18px;
+      margin-top: 0;
+    }
+    span {
+      color: white;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    p {
+      color: gray;
+      font-size: 14px;
+      margin-left: 15px;
+      margin-top: 30px;
+    }
+    .logo{
+      margin-left: 0;
+      .ico{
+        li{
+          padding-top: 30px;
+        }
+      }
+    }
+    .contact-inf{
+      p{
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+      a{
+        display: inline-block;
+        color: gray;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    ul{
+      padding-left: 20px;
+      li{
+        list-style-type: square;
+        color: white;
+        a{
+          color: gray;
+        }
+      }
+    }
+    .news{
+      p{
+        margin-left: 0;
+      }
+      .inputs{
+        background-color: #4e4c4c;
+        border: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 12px;
+        font-size: 16px;
+      }
+      .button-3{
+        background-color: #828282;
+        color: white;
+        font-family: $main-font;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        box-shadow: none;
+        padding: 5px 10px 5px 10px;
+      }
+    }
+  }
+  .footer-bottom{
+    margin-top: 50px;
+    .copyright{
+      text-align: left;
+      padding-left: 40px;
+      h2{
+        color: gray;
+        display: inline;
+        font-size: 16px;
+      }
+      span{
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+    }
+    .about{
+      text-align: right;
+      a{
+        font-size: 16px;
+        color: gray;
+        text-transform: uppercase;
+      }
+      span{
+        color: gray;
+      }
+    }
+  }
+}

@@ -1,0 +1,255 @@
+header {
+  text-align: center; }
+  header .intro {
+    margin-top: 20px; }
+    header .intro h1 {
+      color: white;
+      display: inline;
+      font-size: 22px; }
+    header .intro span {
+      text-transform: uppercase;
+      color: #87b672;
+      font-size: 22px;
+      font-weight: bold; }
+    header .intro p {
+      color: white;
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 30px;
+      margin-top: 10px; }
+    header .intro .button-1 {
+      display: inline-block;
+      text-transform: uppercase;
+      color: white;
+      background-color: transparent;
+      padding: 10px 15px 10px 15px;
+      border: 1px white solid; }
+    header .intro .button-1:hover {
+      color: #87b672;
+      border: 1px #87b672 solid; }
+  header .slider .controls {
+    background-image: none;
+    background-color: transparent;
+    margin-top: 220px; }
+    header .slider .controls span {
+      font-size: 50px; }
+  header .menu {
+    bottom: -40px; }
+    header .menu nav {
+      background-image: none;
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+      margin-top: 30px;
+      margin-bottom: 0px; }
+      header .menu nav .main-menu .main-list li {
+        padding-right: 12px; }
+        header .menu nav .main-menu .main-list li a {
+          text-transform: uppercase;
+          font-family: "Lato", sans-serif;
+          font-size: 15px;
+          color: white; }
+        header .menu nav .main-menu .main-list li a:hover {
+          color: #8fbb7b; }
+      header .menu nav .main-menu .main-list .active-1 a {
+        color: #8fbb7b;
+        background-color: transparent;
+        background-image: none;
+        border: none;
+        box-shadow: none; }
+      header .menu nav .main-menu .search li a {
+        font-size: 20px;
+        color: white; }
+      header .menu nav .main-menu .search li a:hover {
+        color: #8fbb7b; }
+
+.logo {
+  margin-left: 15px;
+  text-align: left; }
+  .logo a {
+    font-family: 'Pacifico', cursive;
+    font-size: 52px;
+    color: white; }
+  .logo .ico {
+    text-align: right; }
+    .logo .ico ul {
+      display: inline-block;
+      list-style-type: none;
+      text-align: center; }
+      .logo .ico ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding-right: 5px;
+        padding-top: 20px; }
+        .logo .ico ul li a {
+          font-size: 18px;
+          background-color: white;
+          opacity: 0.5;
+          border-radius: 50%;
+          color: rgba(0, 0, 0, 0.5);
+          width: 30px;
+          height: 30px;
+          padding-top: 7px; }
+        .logo .ico ul li a:hover {
+          opacity: 0.9; }
+
+a {
+  font-family: "Lato", sans-serif; }
+
+a:hover {
+  text-decoration: none; }
+
+span {
+  font-family: "Lato", sans-serif; }
+
+h1 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333333;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 30px; }
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #666666;
+  font-size: 16px; }
+
+h2 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 30px; }
+
+.line {
+  content: "";
+  height: 1px;
+  background-color: #f3f3f3;
+  margin-top: 60px;
+  margin-bottom: 70px; }
+
+.services {
+  background-color: white;
+  text-align: center; }
+  .services .our-serv {
+    margin-top: 100px; }
+  .services .single-service {
+    margin-bottom: 60px; }
+    .services .single-service i {
+      color: gray;
+      font-size: 52px;
+      padding-bottom: 30px; }
+    .services .single-service p {
+      color: #666666;
+      font-size: 16px;
+      margin-bottom: 30px; }
+    .services .single-service a {
+      color: #8fbb7b;
+      font-size: 16px;
+      padding-bottom: 60px; }
+    .services .single-service a:hover {
+      color: #6a9059;
+      text-decoration: none; }
+
+.work {
+  background-color: #dadada;
+  text-align: center; }
+  .work .portfolio {
+    background-color: #dadada; }
+
+.buy {
+  background-color: white;
+  text-align: center; }
+  .buy .purchase {
+    margin-bottom: 60px; }
+    .buy .purchase p {
+      margin-bottom: 30px; }
+    .buy .purchase .button-2 {
+      color: white;
+      text-transform: uppercase;
+      font-size: 14px;
+      background-color: #87b672;
+      padding: 10px 15px 10px 15px; }
+
+footer {
+  background-color: #333333; }
+  footer .footer-top {
+    margin-top: 50px; }
+    footer .footer-top h1 {
+      color: white;
+      font-size: 18px;
+      margin-top: 0; }
+    footer .footer-top span {
+      color: white;
+      font-size: 15px;
+      font-weight: 600; }
+    footer .footer-top p {
+      color: gray;
+      font-size: 14px;
+      margin-left: 15px;
+      margin-top: 30px; }
+    footer .footer-top .logo {
+      margin-left: 0; }
+      footer .footer-top .logo .ico li {
+        padding-top: 30px; }
+    footer .footer-top .contact-inf p {
+      margin-left: 0;
+      margin-top: 0;
+      margin-bottom: 5px; }
+    footer .footer-top .contact-inf a {
+      display: inline-block;
+      color: gray;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    footer .footer-top ul {
+      padding-left: 20px; }
+      footer .footer-top ul li {
+        list-style-type: square;
+        color: white; }
+        footer .footer-top ul li a {
+          color: gray; }
+    footer .footer-top .news p {
+      margin-left: 0; }
+    footer .footer-top .news .inputs {
+      background-color: #4e4c4c;
+      border: none;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-left: 12px;
+      font-size: 16px; }
+    footer .footer-top .news .button-3 {
+      background-color: #828282;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      border: none;
+      box-shadow: none;
+      padding: 5px 10px 5px 10px; }
+  footer .footer-bottom {
+    margin-top: 50px; }
+    footer .footer-bottom .copyright {
+      text-align: left;
+      padding-left: 40px; }
+      footer .footer-bottom .copyright h2 {
+        color: gray;
+        display: inline;
+        font-size: 16px; }
+      footer .footer-bottom .copyright span {
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase; }
+    footer .footer-bottom .about {
+      text-align: right; }
+      footer .footer-bottom .about a {
+        font-size: 16px;
+        color: gray;
+        text-transform: uppercase; }
+      footer .footer-bottom .about span {
+        color: gray; }
+
+/*# sourceMappingURL=main.css.map */
